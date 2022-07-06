@@ -1,0 +1,85 @@
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: linear-gradient( 174.2deg,  rgba(255,244,228,1) 7.1%, rgba(240,246,238,1) 67.4% );
+}
+
+.title{
+    font-size: 85px;
+    color: #bbb29491;
+    
+}
+
+.containerInput{
+    background-color: #37373749;
+    padding: 15px;
+    margin: 34px 0;
+    display: flex;
+    border-radius: 8px;
+    box-shadow: 2px 3px 5px #37373791;
+}
+
+.containerInput input{
+    background-color: transparent;
+    border: 0;
+    font-size: 20px;
+    color: #f4f4f4;
+    outline: none;
+    margin-right: 8px;
+}
+
+.containerInput input::placeholder{
+    color: #f7f4ea;
+}
+
+.buttonSearch{
+    background-color: transparent;
+    border: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transform: transform 0.7s;
+}
+.buttonSearch:hover{
+    transform: scale(1.2);
+    color: #f7f4ea;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 500px;
+    border-radius: 8px;
+    color: #201f1f;
+}
+
+.main h2{
+    margin: 16px 0;
+    font-size: 39px;
+}
+
+.main span{
+    margin-bottom: 16px;
+    font-weight: bold;
+}
+
+@media (max-width: 620px) {
+    .title{
+        font-size: 50px;
+    }
+    .main h2{
+        font-size: 28px;
+    }
+
+    .main{
+        width: 80%;
+        min-height: 300px;
+    }
+}
+
